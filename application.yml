@@ -1,0 +1,26 @@
+db:
+  host: 127.0.0.1
+  port: 1200
+
+dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''pass''}'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+my:
+  app:
+    name: App Name configuration
+  greeting: Hello configuration ${my.app.name}
+  list:
+    value: One,Two,Three
+server:
+  port: 8080
+spring:
+  application:
+    name: test-configuration
+    
+  profiles:
+    active: test
+    
