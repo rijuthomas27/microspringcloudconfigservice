@@ -2,7 +2,7 @@ db:
   host: 127.0.0.1
   port: 1200
 
-dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''pass''}'
+dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''passGithub''}'
 
 management:
   endpoints:
