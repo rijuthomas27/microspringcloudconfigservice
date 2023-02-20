@@ -1,0 +1,21 @@
+db:
+  host: 127.0.0.1
+  port: 1200
+
+dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''externalconfigtest''}'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+my:
+  app:
+    name: App External config repo Name configuration
+  greeting: Hello from test profile configuration ${my.app.name}
+  list:
+    value: One,Two,Three
+
+spring:
+  application:
+    name: test-configuration

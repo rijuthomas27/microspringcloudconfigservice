@@ -2,7 +2,7 @@ db:
   host: 127.0.0.1
   port: 1200
 
-dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''pass''}'
+dbValues: '{connectionString:''http://dbstring'',username:''foo'',password:''passGithub''}'
 
 management:
   endpoints:
@@ -11,7 +11,7 @@ management:
         include: '*'
 my:
   app:
-    name: App Name configuration
+    name: App Name from GitHub modified configuration
   greeting: Hello configuration ${my.app.name}
   list:
     value: One,Two,Three
