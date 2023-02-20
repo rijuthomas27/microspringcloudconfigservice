@@ -1,0 +1,4 @@
+my:
+  app:
+    name: App Name configuration from spring-config.yml
+  greeting: Hello configuration ${my.app.name}
