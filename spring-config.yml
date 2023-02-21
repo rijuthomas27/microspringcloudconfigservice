@@ -1,6 +1,6 @@
 my:
   app:
-    name: App Name configuration from spring-config.yml remodified
+    name: App Name Riju configuration from spring-config.yml remodified
   greeting: Hello configuration ${my.app.name}
   
 spring:
